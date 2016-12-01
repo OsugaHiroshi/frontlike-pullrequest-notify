@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "frontlike-pr-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "osuga.hiroshi <osuga.hiroshi@moneyforward.co.jp>",
+  "license": "MIT"
+}
