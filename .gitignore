@@ -1,0 +1,5 @@
+before.env
+node_modules
+nvm.env
+
+.config.json
