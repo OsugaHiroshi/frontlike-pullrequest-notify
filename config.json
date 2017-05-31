@@ -1,9 +1,27 @@
 {
   "github": {
-    "username": "",
-    "token": ""
+    "username": "tokenの所有者のgithub id",
+    "token": "github personal token",
+    "issuePath": "ポーリングするissuesのパス ex) /orgs/xxxxxx/issues"
   },
   "slack": {
-    "token": ""
+    "token": "api token",
+    "sendTo": "通知先ちゃんねる",
+    "bot": {
+      "icon": "ボットのアイコン",
+      "name": "ボットの名前"
+    }
+  },
+  "pullrequest": {
+    "url": {
+      "whiteList": [
+        "監視対象とするpullrequestのurlにマッチする正規表現"
+      ]
+    },
+    "targetFile": {
+      "whiteList": [
+        "対象とするファイルのパスにマッチする正規表現"
+      ]
+    }
   }
 }
