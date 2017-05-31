@@ -12,3 +12,11 @@
 # config
 `.config.json` に必要な設定をしてください
 - `cp config.json .config.json`
+
+# install
+- `git clone`
+- `cp config.json .config.json`
+- `vim .config.json`
+
+# usage
+`npm start`
